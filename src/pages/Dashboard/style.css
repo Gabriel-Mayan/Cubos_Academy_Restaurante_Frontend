@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Montserrat:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  --baloo: "Baloo 2", cursive;
+  --montserrat: "Montserrat", sans-serif;
+}
+
+.Dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Dashboard > .banner {
+  width: 100%;
+  height: 248px;
+  border-radius: 0px 0px 232.147px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.Dashboard .profileImage {
+  position: absolute;
+  width: 176px;
+  height: 176px;
+  bottom: -82px;
+  left: 112px;
+  border: 6px solid #ffffff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.Dashboard .desenhoBanner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Dashboard .cabecalho {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0 216px 40px 320px;
+}
+
+button.logout {
+  all: unset;
+  font-family: var(--montserrat);
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 1);
+  cursor: pointer;
+}
+
+.Dashboard h1 {
+  font-family: var(--baloo);
+  color: hsla(0, 100%, 100%, 1);
+  font-size: 32px;
+}
+
+.dashboardSemProdutos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 500px;
+  text-align: center;
+  gap: 32px;
+  margin-top: 150px;
+}
+
+.Modal {
+  z-index: 2;
+}
+
+span.avisoQtdCaracteres {
+  margin-left: 24px;
+  margin-top: -41px;
+  margin-bottom: 49px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--montserrat);
+}
+
+.produtos {
+  margin-top: 300px;
+  display: grid;
+  grid-template-columns: 592px 592px;
+  column-gap: 32px;
+  row-gap: 32px;
+  justify-items: center;
+  align-items: flex-start;
+}

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Montserrat:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  --baloo: "Baloo 2", cursive;
+  --montserrat: "Montserrat", sans-serif;
+}
+
+p, p.MuiFormHelperText-root {
+  font-family: var(--montserrat);
+}
+
+.Cadastro {
+  min-height: 100vh;
+  background-image: url("../../assets/bg-cadastro.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  font-family: var(--montserrat);
+}
+
+.formCadastro {
+  width: min-content;
+  min-height: 100vh;
+  background-color: #ffffff;
+  border-bottom-right-radius: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 143px 184px 140px 112px;
+}
+
+.Cadastro h1 {
+  font-family: var(--baloo);
+  color: rgb(99, 79, 73);
+  font-size: 32px;
+  margin-right: 60px;
+}
+
+.desenhoBg {
+  position: absolute;
+  top: 48%;
+  right: -2.5%;
+  z-index: -1;
+}
+
+.conteudoForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span.MuiStepLabel-iconContainer {
+  padding: 0;
+}
+
+div.MuiStep-root.MuiStep-horizontal {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+form > * {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: var(--montserrat);
+  font-weight: 600;
+  font-size: 16px;
+  color: hsla(214, 6%, 24%, 1);
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
+
+.spanRedirLogin {
+  font-family: var(--montserrat);
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: hsla(210, 3%, 45%, 1);
+}
+
+.linkLogin {
+  color: hsla(202, 94%, 27%, 1);
+}
+
+.linkLogin:visited {
+  color: hsla(202, 94%, 27%, 1);
+}
+
+.MuiSelect-icon {
+  margin-right: 20px;
+}
+
+li {
+  font-family: var(--montserrat);
+}
+
+span.avisoQtdCaracteres {
+  margin-left: 24px;
+  margin-top: -41px;
+  margin-bottom: 49px;
+  font-size: 14px;
+  font-weight: 400;
+}
