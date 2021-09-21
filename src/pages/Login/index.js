@@ -36,6 +36,7 @@ function Login() {
 
 			if (erro) {
 				setErro(dados);
+				setLoading(false);
 				return;
 			}
 			logar(dados.token, () => history.push('/produtos'));

@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import TextField from "../../Elements/Inputs/TextField";
-import InputPassword from "../../Elements/Inputs/InputPassword/index";
 import useValidacaoForm from "../../../hooks/useValidacaoForm";
+import InputPassword from "../../Elements/Inputs/InputPassword";
 
 function FormPasso1({ register }) {
 	const [nome, setNome] = useState();
