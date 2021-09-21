@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import TextField from "../../Elements/Inputs/TextField";
-import InputPassword from "../../Elements/Inputs/InputPassword";
+import InputPassword from "../../Elements/Inputs/InputPassword/index";
 import useValidacaoForm from "../../../hooks/useValidacaoForm";
 
 function FormPasso1({ register }) {

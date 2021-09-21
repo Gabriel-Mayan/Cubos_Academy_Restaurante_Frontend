@@ -10,7 +10,7 @@ import UploadImage from "../../UploadImage";
 import Select from "../../Elements/Inputs/Select";
 import TextField from "../../Elements/Inputs/TextField";
 import InputAmount from "../../Elements/Inputs/InputAmount";
-import InputPassword from "../../Elements/Inputs/InputPassword";
+import InputPassword from "../../Elements/Inputs/InputPassword/index";
 import { put, get } from "../../../requisicoes";
 
 import { Button } from "@material-ui/core";
